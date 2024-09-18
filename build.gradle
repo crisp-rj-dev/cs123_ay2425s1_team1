@@ -4,6 +4,7 @@ plugins {
     id 'com.github.johnrengelman.shadow' version '7.1.2'
     id 'application'
     id 'jacoco'
+    id "org.sonarqube" version "5.0.0.4638"
 }
 
 mainClassName = 'seedu.address.Main'
